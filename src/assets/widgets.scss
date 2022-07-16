@@ -1,0 +1,29 @@
+// 定义变量
+$widget-top: 5rem;
+$widget-left: 1rem;
+$widget-right: 1rem;
+$widget-5right: 5rem;
+// 缩放控件：右侧
+// ol默认：ol-zoom
+.control-right {
+  bottom: 5.5rem;
+  right: $widget-right;
+}
+
+.scale-left {
+  left: $widget-left + 7rem;
+}
+
+.attr-right {
+  right: $widget-right;
+}
+// 对于原生css文件已经使用的，可以使用initial!important强制初始化
+.legend-right{
+  left:initial!important;
+  right:$widget-5right;
+  z-index:1;
+  max-height:90%;
+  max-width:90%;
+  overflow-x:hidden;
+  overflow-y:auto
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.4.9",
+    "@vue/shared": "^3.2.31",
+    "cesium": "^1.92.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.4.5",
+    "file-saver": "^2.0.5",
+    "ol": "^6.14.1",
+    "ol-cesium": "^2.10.0",
+    "ol-contextmenu": "^4.1.0",
+    "ol-ext": "^3.1.17",
+    "olcs": "^2.13.0",
+    "projzh": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.4.0",
+    "vx-easyui": "^1.2.42"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "axios": "^0.18.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "unplugin-auto-import": "^0.7.0",
+    "unplugin-vue-components": "^0.19.2",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
