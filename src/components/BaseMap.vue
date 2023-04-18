@@ -219,7 +219,7 @@
       })
       const scene = this.ol3d.getCesiumScene()
       //添加自己的Cesium Token 网址：https://cesium.com/ion/tokens?page=1
-      Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NDVlMGFhMi05NzE3LTQ0ZTktYmEzYy05NmVhNmFjY2IyMGUiLCJpZCI6OTYyMDAsImlhdCI6MTY1NDI0OTEyNn0.L0cPRzLVGwWC_stOn9sXFbU_b3IDVyf-2bZdlAv7jCI'
+      Cesium.Ion.defaultAccessToken = 'Yourself Token...???'
       scene.terrainProvider = Cesium.createWorldTerrain({
     requestWaterMask: true
 });
